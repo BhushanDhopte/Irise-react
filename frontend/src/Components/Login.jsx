@@ -7,7 +7,7 @@ function Login(){
     const router = useNavigate();
 
     function gotoRegister(){
-        router('./register')
+        router('/register')
     }
 
     return (
