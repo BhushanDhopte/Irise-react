@@ -1,5 +1,5 @@
 import { useState } from "react";
-import 
+
 
 function Mapping(){
     const [players,setplayers]= useState([{name:"Virat",age:35,role:"Bastmen"},{name:"Rohit",age:34,role:"Bastmen&Captain"},{name:"Rahul",age:35,role:"Bastmen&vice-captain"},{name:"Jadeja",age:35,role:"allrounder"}])
