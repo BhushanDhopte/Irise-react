@@ -3,7 +3,8 @@ import './App.css';
 import { Routes,Route } from 'react-router-dom';
 import Home from './Components/Home';
 import Login from './Components/Login';
-import Register from './Components/Register';
+
+
 import UseState from './Components/UseState';
 import Useeffect1 from './Components/30.-10/Useeffect1';
 import Useeffect2 from './Components/30.-10/Useeffect2';
@@ -15,6 +16,7 @@ import Mapping from './Components/02-11/Mapping';
 import ConditonalRendering from './Components/03-11/ConditonalRendering';
 import ConditonalRendering2 from './Components/03-11/ConditonalRendering2';
 import ConditonalRendering3 from './Components/03-11/conditionalRendering3';
+import Register from './Components/07-11/register';
 
 function App() {
   const[counter,setcounter]=useState(0)
@@ -27,7 +29,7 @@ function App() {
        <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/login' element={<Login />} />
-        <Route path='/register' element={<Register />} />
+        <Route path='/register'element={<Register />}/>
         <Route path='/use-state'element={<UseState />} />
         <Route path='/use-effect-1'element={<Useeffect1 />}/>
         <Route path='/use-effect-2'element={<Useeffect2 />}/>
