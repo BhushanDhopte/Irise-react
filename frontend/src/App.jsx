@@ -18,6 +18,7 @@ import ConditonalRendering2 from './Components/03-11/ConditonalRendering2';
 import ConditonalRendering3 from './Components/03-11/conditionalRendering3';
 import Register from './Components/07-11/register';
 import UseReducer from './Components/09-11/usereducer';
+import Calculator from './Components/18-11-practice/calulator';
 
 function App() {
   const[counter,setcounter]=useState(0)
@@ -42,6 +43,7 @@ function App() {
         <Route path='/conditional-rendering-2'element={<ConditonalRendering2 />}/>
         <Route path='/conditional-rendering-3'element={<ConditonalRendering3 />}/>
         <Route path='/use-reducer' element={<UseReducer />} />
+        <Route path='/calculator' element={<Calculator />} />
       </Routes>
     </div>
   );
